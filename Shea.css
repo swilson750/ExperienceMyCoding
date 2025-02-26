@@ -11,5 +11,12 @@ a:hover{
 
 h1 {
     font-family: Garamond;
+    font-size:18px;
+    color:chartreuse;
+    background-color:blue;
   }
   
+
+  .image {
+    background-image: url('C:\Users\swils\Downloads\pexels-pixabay-531880.jpg');
+  }
