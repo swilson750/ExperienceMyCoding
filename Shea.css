@@ -1,6 +1,8 @@
 
 p{
     color:magenta
+   
+
 }
 
 
@@ -14,9 +16,20 @@ h1 {
     font-size:18px;
     color:chartreuse;
     background-color:blue;
+    width: 400px;
   }
   
 
-  .image {
-    background-image: url('C:\Users\swils\Downloads\pexels-pixabay-531880.jpg');
+img {
+    background-image: url("C:\Users\swils\Downloads\pexels-pixabay-531880.jpg");
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    opacity: 0.5;
   }
+
+  .text-overlay{
+
+  }
+
+  /* overflow: scroll; */
