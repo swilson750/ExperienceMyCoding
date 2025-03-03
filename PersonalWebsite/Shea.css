@@ -1,0 +1,42 @@
+
+p{
+    color:magenta
+   
+
+}
+
+
+a:hover{
+
+    color:blueviolet
+}
+
+h1 {
+    font-family: Garamond;
+    font-size:25px;
+    color:chartreuse;
+    background-color:blue;
+    width: 400px;
+  }
+  
+
+/* img {
+    position: absolute;
+    width: 500px;
+    height: 300px;
+    opacity: 0.5;
+  } */
+
+ 
+
+
+.background{
+  background-color: blue;
+  color: wheat;
+  text-align: center;
+
+}
+
+
+
+  /* overflow: scroll; */
