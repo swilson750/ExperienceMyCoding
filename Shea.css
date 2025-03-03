@@ -21,15 +21,22 @@ h1 {
   
 
 img {
-    background-image: url("C:\Users\swils\Downloads\pexels-pixabay-531880.jpg");
     position: absolute;
     width: 500px;
     height: 300px;
     opacity: 0.5;
   }
 
-  .text-overlay{
+ 
 
-  }
+
+.background{
+  background-color: blue;
+  color: wheat;
+  text-align: center;
+
+}
+
+
 
   /* overflow: scroll; */
