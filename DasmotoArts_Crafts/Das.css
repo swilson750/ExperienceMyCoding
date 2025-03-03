@@ -2,22 +2,41 @@
 head{
 }
 
+header{
+position: relative
 
-h1{
+}
+
+header img{
+    width: 1900;
+    height: 350px;
+    margin-top: 60px;
+
+ 
+    
+}
+
+.overlay-text{
+    position: absolute;
+    top: 40%;
+    left: 5%; 
+    font-weight: bold;
+    color: khaki;
+    font-family: Helvetica;
+
+    font-size: 80px;
+
+
+}
+
+
+/* h1{
    
     text-align: center;
     font-weight: bold;
     color: khaki;
-}
-
-
-header img{
-    width: 1900;
-    height: 150px;
-    margin: 20px;
-    
-}
-
+    font-family: Helvetica;
+} */
 
 
 
@@ -28,19 +47,19 @@ h2{
     
 }
 
+
 h3{
 font-family: Helvetica;
 color: black;
 
 }
 
+
 #Section1{
     background-color: mediumspringgreen;
     color: white;
     height: 50px;
     margin-bottom: 500px;
-    
-
 }
 
 #Section2{
@@ -49,7 +68,6 @@ color: black;
     height: 50px;
     margin-top: 500px;
     margin-bottom: 500px;
-    
 }
 
 #Section3{
@@ -58,14 +76,11 @@ color: black;
     height: 50px;
     margin-top: 500px;
     margin-bottom: 500px;
-    
 }
 
 p{
-
     font-family: Georgia;
     color: black;
-
 }
 
 strong{
