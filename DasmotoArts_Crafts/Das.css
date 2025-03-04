@@ -3,27 +3,26 @@ head{
 }
 
 header{
-position: relative
+
+max-height: 150;
+overflow: hidden;
 
 }
 
 header img{
-    width: 1900;
-    height: 350px;
+    width: 100%;
+    height: auto;
     margin-top: 60px;
-
- 
     
 }
 
 .overlay-text{
     position: absolute;
-    top: 40%;
+    /* top: 20%; */
     left: 5%; 
     font-weight: bold;
     color: khaki;
     font-family: Helvetica;
-
     font-size: 80px;
 
 
