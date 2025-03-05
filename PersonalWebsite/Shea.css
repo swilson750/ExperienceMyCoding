@@ -1,6 +1,9 @@
 
 p{
-    color:magenta
+    color:magenta;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Agency FB';
    
 
 }
@@ -12,28 +15,32 @@ a:hover{
 }
 
 h1 {
-    font-family: Garamond;
-    font-size:25px;
+    font-family: 'Agency FB';
+    font-size:50px;
     color:chartreuse;
     background-color:blue;
-    width: 400px;
+    width: 100%;
+    margin-bottom: 200px;
+    font-weight: bold;
+   
+    
   }
   
 
-/* img {
-    position: absolute;
-    width: 500px;
-    height: 300px;
-    opacity: 0.5;
-  } */
+
 
  
 
 
-.background{
-  background-color: blue;
+body {
+  background-color: green;
   color: wheat;
   text-align: center;
+  width: 100%;
+  height: auto;
+  background-image: url(CodingImage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 
 }
 
