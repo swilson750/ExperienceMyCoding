@@ -1,8 +1,8 @@
 
 p{
-    color:magenta;
+    color: red;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Agency FB';
    
 
@@ -44,6 +44,12 @@ body {
 
 }
 
+
+button:hover{
+  color: deeppink;
+  background-color: chocolate;
+
+}
 
 
   /* overflow: scroll; */
