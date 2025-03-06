@@ -1,8 +1,22 @@
+
+/* @font-face{
+font-family: "Kablammo";
+
+src: local("Kablammo");
+
+} */
+
+
+
+
+
 body{
 
+color:aqua;
+font-family: "Kablammo";
 background-color: blueviolet;
 text-transform: uppercase;
-font-size:18px
+font-size:20px;
 
 
 }
@@ -30,5 +44,14 @@ table, th, td{
 
 
 td{
-    
+    background-color: brown;
+}
+
+th{
+    color: chartreuse;
+    background-color: brown;
+}
+
+#pink{
+    color:hotpink;
 }
