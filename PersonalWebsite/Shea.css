@@ -1,6 +1,6 @@
 
 p{
-    color: red;
+    color: coral;
     font-weight: bold;
     font-size: 40px;
     font-family: 'Agency FB';
@@ -8,6 +8,10 @@ p{
 
 }
 
+a{
+  text-decoration: underline;
+  cursor:pointer;
+}
 
 a:hover{
 
@@ -45,7 +49,7 @@ body {
 }
 
 
-button:hover{
+#press:hover{
   color: deeppink;
   background-color: chocolate;
 
