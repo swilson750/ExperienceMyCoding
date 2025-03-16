@@ -4,6 +4,7 @@ p{
     font-weight: bold;
     font-size: 40px;
     font-family: 'Agency FB';
+    background-color: aquamarine;
    
 
 }
@@ -21,8 +22,8 @@ a:hover{
 h1 {
     font-family: 'Agency FB';
     font-size:50px;
-    color:chartreuse;
-    background-color:blue;
+    
+    background-color:rgb(34, 34, 195);
     width: 100%;
     margin-bottom: 200px;
     font-weight: bold;
@@ -42,9 +43,9 @@ body {
   text-align: center;
   width: 100%;
   height: auto;
-  background-image: url(CodingImage.jpg);
+  background-image: url(NewImage.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:contain    ;
 
 }
 
@@ -57,3 +58,26 @@ body {
 
 
   /* overflow: scroll; */
+
+
+  .breadcrumb li{
+    display: inline;
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    border: 1px, solid, aqua;
+    background: hotpink;
+  }
+
+  .breadcrumb li::after{
+    content: ">";
+
+  }
+
+  .breadcrumb li:hover{
+    background-color: blueviolet;
+  }
+
+  .breadcrumb li:active{
+
+  }
